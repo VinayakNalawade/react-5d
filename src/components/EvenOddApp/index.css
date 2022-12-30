@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  color: #0f172a;
+}
+
+.para {
+  color: #334155;
+  font-weight: 600;
+}
+
+.button {
+  color: #0f172a;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 600px;
+  }
+}
